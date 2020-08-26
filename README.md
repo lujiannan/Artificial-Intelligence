@@ -30,8 +30,9 @@
 9.打开pycharm, file-settings-project:****-project interpreter-project interpreter choice blank-show all-add button-conda environment-click existing environment-interpreter choce blank-browse-find installed anaconda3 folder-choose python.exe
 --如果想要用10.1的时候，anaconda命令行输入conda create -n cuda101 python=3.7.6，重复file-settings-......-find installed anaconda3 folder-envs-cuda101-python.exe
 
-*******************************************************************************************************
+
 如果希望安装cuda10.1其他步骤差不多，安装tensorflow时pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow==2.1
+----------
 
 #Report about the Project
 ##Algorithm
