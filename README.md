@@ -28,7 +28,7 @@
 8.用anaconda安装tensorflow，pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-gpu==1.13.1 看到下载之后复制链接到浏览器用迅雷下载（链接不出意外应该https://pypi.tuna.tsinghua.edu.cn/packages/a0/dd/8fd5f91345ef290e884343bbb947ab074af4cb73813128b692977160aeec/tensorflow_gpu-1.13.1-cp37-cp37m-win_amd64.whl）
 下载完打开anaconda，进入tensorflow下载地址，输入install (tensorflow文件名)
 
-9.打开pycharm, file-settings-project:****-project interpreter-project interpreter choice blank-show all-add button-conda environment-click existing environment-interpreter choce blank-browse-find installed anaconda3 folder-choose python.exe
+9.打开pycharm, file-settings-project: -project interpreter-project interpreter choice blank-show all-add button-conda environment-click existing environment-interpreter choce blank-browse-find installed anaconda3 folder-choose python.exe
 --如果想要用10.1的时候，anaconda命令行输入conda create -n cuda101 python=3.7.6，重复file-settings-......-find installed anaconda3 folder-envs-cuda101-python.exe
 
 
@@ -39,7 +39,7 @@ Report about the Project
 Algorithm
 ---------
 Object Detection via Yolov4, and applying COCO data set.<br>
->Training of 2D detection of the stapler at 360 degree of camera angles, with various stapler state (open/close), and different environment (white wooden desk/brown wooden desk).
+Training of 2D detection of the stapler at 360 degree of camera angles, with various stapler state (open/close), and different environment (white wooden desk/brown wooden desk).<br>
 >Based on a rigid reference, measure and tell whether installed staples is appropriate and how guiding message, and training of the 2D detection at all common operating angles with various stapler state, and different environment (similar as above).<br>
 Training data set
 --------
