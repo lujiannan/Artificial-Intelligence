@@ -47,7 +47,7 @@ After a series of translate, we get a data set which can be used in the yolov4 s
 We make a pre-process before training, we utilize the coco data set which is far more complicate and huge than our data set. We import the coco data set, and apply the transfer learning so that we could lower the risk of gradient explosion or gradient disappear, and also, a larger data set could effectively rise the learning efficiency, and lower the loss of detection at a higher speed. Cuz a training process could usually last for dozens of hours or even several days, a lower risk would prevent us from waiting for a long time, and it collapsed, and we need to retrain and redo the whole process again, and a higher speed could apparently get us a good result earlier.<br>
 ![Image1](https://github.com/lujiannan/Artificial-Intelligence/blob/master/images/%E5%9B%BE%E7%89%871.png)<br>
 ## Effect of the algorithm on testing data
-![Image2](https://github.com/lujiannan/Artificial-Intelligence/blob/master/images/%E5%9B%BE%E7%89%872.png)<br>
+>![Image2](https://github.com/lujiannan/Artificial-Intelligence/blob/master/images/%E5%9B%BE%E7%89%872.png)<br>
 ![Image3](https://github.com/lujiannan/Artificial-Intelligence/blob/master/images/%E5%9B%BE%E7%89%873.png)<br>
 ![Image4](https://github.com/lujiannan/Artificial-Intelligence/blob/master/images/%E5%9B%BE%E7%89%874.png)<br>
 ![Image5](https://github.com/lujiannan/Artificial-Intelligence/blob/master/images/%E5%9B%BE%E7%89%875.png)<br>
